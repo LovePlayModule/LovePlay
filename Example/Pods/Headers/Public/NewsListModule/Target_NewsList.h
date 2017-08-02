@@ -1,0 +1,1 @@
+../../../NewsListModule/NewsListModule/Classes/Targets/Target_NewsList.h

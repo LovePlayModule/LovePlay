@@ -1,0 +1,1 @@
+../../../NewsDetailModule/NewsDetailModule/Classes/Model/NewsDetailModel.h

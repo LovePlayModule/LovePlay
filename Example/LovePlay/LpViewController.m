@@ -7,6 +7,7 @@
 //
 
 #import "LpViewController.h"
+#import <NewsList_Category/Mediator+NewsList.h>
 
 @interface LpViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    UIViewController *newsListVC = [[Mediator sharedInstance] NewsList_viewController];
+    [self addChildViewController:newsListVC];
+    [self.view addSubview:newsListVC.view];
 }
 
 - (void)didReceiveMemoryWarning

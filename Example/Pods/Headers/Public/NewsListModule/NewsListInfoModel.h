@@ -1,0 +1,1 @@
+../../../NewsListModule/NewsListModule/Classes/Model/NewsListInfoModel.h

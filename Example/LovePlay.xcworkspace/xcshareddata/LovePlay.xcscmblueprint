@@ -1,0 +1,43 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "587E04CB446ADC7505770265A23CFB943AAEA596" : 9223372036854775807,
+    "6A83930C6ABC3261C87D5653D7BC72A7E508409D" : 9223372036854775807,
+    "EFAB1D9B563D75432750EF35A12968CE984AC1D1" : 9223372036854775807,
+    "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF78894F-C536-4A94-8181-611C0C47C65B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "587E04CB446ADC7505770265A23CFB943AAEA596" : "NewsCommentModule\/",
+    "6A83930C6ABC3261C87D5653D7BC72A7E508409D" : "NewsList_Category\/",
+    "EFAB1D9B563D75432750EF35A12968CE984AC1D1" : "NewsDetailModule\/",
+    "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19" : "NewsListModule\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LovePlay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/LovePlay.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/NewsCommentModule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "587E04CB446ADC7505770265A23CFB943AAEA596"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/NewsList_Category.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A83930C6ABC3261C87D5653D7BC72A7E508409D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/NewsListModule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/NewsDetailModule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EFAB1D9B563D75432750EF35A12968CE984AC1D1"
+    }
+  ]
+}

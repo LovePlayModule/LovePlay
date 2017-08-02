@@ -1,0 +1,27 @@
+{
+  "name": "NewsList_Category",
+  "version": "0.1.0",
+  "summary": "NewsList_Category.",
+  "description": "TODO: Add long description of NewsList_Category.",
+  "homepage": "https://github.com/LovePlayModule/NewsList_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YunsChou": "2647754496@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LovePlayModule/NewsList_Category.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NewsList_Category/Classes/**/*",
+  "dependencies": {
+    "Mediator": [
+
+    ]
+  }
+}

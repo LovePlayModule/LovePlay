@@ -1,0 +1,1 @@
+../../../NewsCommentModule/NewsCommentModule/Classes/Controller/NewsCommentViewController.h

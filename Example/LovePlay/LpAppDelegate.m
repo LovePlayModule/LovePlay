@@ -7,12 +7,15 @@
 //
 
 #import "LpAppDelegate.h"
+#import <Network/HttpRequest.h>
 
 @implementation LpAppDelegate
 
+NSString * const BaseURL = @"http://i.play.163.com";
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[HttpRequest sharedInstance] configBaseURL:BaseURL];
     return YES;
 }
 
