@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LovePlay_Example' do
+  pod 'LovePlay', :path => '../'
+
+  target 'LovePlay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
