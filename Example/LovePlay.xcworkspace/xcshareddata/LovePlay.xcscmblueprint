@@ -1,24 +1,45 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "033FF9D5992A2DF59433AF308AF1A06F9925794E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "587E04CB446ADC7505770265A23CFB943AAEA596" : 9223372036854775807,
     "6A83930C6ABC3261C87D5653D7BC72A7E508409D" : 9223372036854775807,
     "EFAB1D9B563D75432750EF35A12968CE984AC1D1" : 9223372036854775807,
-    "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19" : 9223372036854775807
+    "033FF9D5992A2DF59433AF308AF1A06F9925794E" : 9223372036854775807,
+    "26CF47F6AE16D843040144D693C5A4360B53F413" : 9223372036854775807,
+    "D36485A42AC623D2C09DC18774C15B1310BDA0FB" : 9223372036854775807,
+    "587E04CB446ADC7505770265A23CFB943AAEA596" : 9223372036854775807,
+    "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19" : 9223372036854775807,
+    "DFB1CA84EFCB603E502AA8F0CE5D9209C1FA82B7" : 9223372036854775807,
+    "7567A5A1168D173435A384C8515F6455D0A2DA22" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF78894F-C536-4A94-8181-611C0C47C65B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "587E04CB446ADC7505770265A23CFB943AAEA596" : "NewsCommentModule\/",
     "6A83930C6ABC3261C87D5653D7BC72A7E508409D" : "NewsList_Category\/",
     "EFAB1D9B563D75432750EF35A12968CE984AC1D1" : "NewsDetailModule\/",
-    "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19" : "NewsListModule\/"
+    "033FF9D5992A2DF59433AF308AF1A06F9925794E" : "LovePlay\/",
+    "26CF47F6AE16D843040144D693C5A4360B53F413" : "Zone_Category\/",
+    "D36485A42AC623D2C09DC18774C15B1310BDA0FB" : "Recommend_Category\/",
+    "587E04CB446ADC7505770265A23CFB943AAEA596" : "NewsCommentModule\/",
+    "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19" : "NewsListModule\/",
+    "DFB1CA84EFCB603E502AA8F0CE5D9209C1FA82B7" : "RecommendModule\/",
+    "7567A5A1168D173435A384C8515F6455D0A2DA22" : "ZoneModule\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LovePlay",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/LovePlay.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/LovePlay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "033FF9D5992A2DF59433AF308AF1A06F9925794E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/Zone_Category.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "26CF47F6AE16D843040144D693C5A4360B53F413"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/NewsCommentModule.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
@@ -30,9 +51,24 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A83930C6ABC3261C87D5653D7BC72A7E508409D"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/ZoneModule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7567A5A1168D173435A384C8515F6455D0A2DA22"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/NewsListModule.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80E5BB7CA8B5D9E0125F8DEE20CBEACD5B18CB19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/Recommend_Category.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D36485A42AC623D2C09DC18774C15B1310BDA0FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/RecommendModule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFB1CA84EFCB603E502AA8F0CE5D9209C1FA82B7"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LovePlayModule\/NewsDetailModule.git",

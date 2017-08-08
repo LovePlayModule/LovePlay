@@ -14,9 +14,12 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - LovePlay (0.1.0)
+  - LovePlay (0.1.0):
+    - NewsList_Category
+    - Recommend_Category
+    - Zone_Category
   - Masonry (1.0.2)
-  - Mediator (0.1.0)
+  - Mediator (0.1.1)
   - Network (0.1.0):
     - AFNetworking
   - NewsComment_Category (0.1.0):
@@ -86,12 +89,28 @@ PODS:
     - NewsListModule/Model
     - Tools
     - YYKit
+  - Recommend_Category (0.1.0):
+    - Mediator
+  - RecommendModule (0.1.2):
+    - Masonry
+    - Network
+    - NewsDetail_Category
+    - NewsList_Category
+    - Tools
+    - YYKit
   - Tools (0.1.0):
     - Tools/Macros (= 0.1.0)
   - Tools/Macros (0.1.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
+  - Zone_Category (0.1.0):
+    - Mediator
+  - ZoneModule (0.1.2):
+    - Masonry
+    - Network
+    - Tools
+    - YYKit
 
 DEPENDENCIES:
   - LovePlay (from `../`)
@@ -99,6 +118,10 @@ DEPENDENCIES:
   - NewsDetailModule
   - NewsList_Category
   - NewsListModule
+  - Recommend_Category
+  - RecommendModule
+  - Zone_Category
+  - ZoneModule
 
 EXTERNAL SOURCES:
   LovePlay:
@@ -106,9 +129,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  LovePlay: 849a1e8c245af43899291acaeb138b8aa383d0ad
+  LovePlay: adb8665662b1fd8f2c7b2344d2264e38ac8b6b80
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  Mediator: 5b8aebadf067de253f3f81900b4bea0909373842
+  Mediator: e56124b3519bb79e289f635092f818d3412f225e
   Network: 4a952f29d06daa87d43ab9111f5b31a1e99655eb
   NewsComment_Category: b502e97cb879ebf211222da1ebe10c133df0b141
   NewsCommentModule: 5d0af0679af0484d457278d7abe7389da3790524
@@ -116,9 +139,13 @@ SPEC CHECKSUMS:
   NewsDetailModule: 075954021cda82b43a198d123f4d155485519c67
   NewsList_Category: 607773fbe099eb6ffe25a60b2f328d0b0ba5e702
   NewsListModule: 0dcbfcab6311f634eed55a53fea0f3443d476763
+  Recommend_Category: bc1cbc9543257c9cdba393ef1f2a03ab40d45ed9
+  RecommendModule: d2687e5d2ae974f3f727b8f75b762384e28052ca
   Tools: c7d2011889d8111e9cc2d40c29ab2183d1835de9
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  Zone_Category: 20e3ad5fe56c32574b3a543dcf58f46557a2a24a
+  ZoneModule: 60bce27e5f27a968c3c5d03aef5ca3e51bcbdc57
 
-PODFILE CHECKSUM: d9fa913d86c975469284d96b115eeb3384758641
+PODFILE CHECKSUM: 2c2537c0937ab827430396522b2e547a3970016c
 
 COCOAPODS: 1.2.1

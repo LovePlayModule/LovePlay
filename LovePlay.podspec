@@ -32,11 +32,13 @@ TODO: Add long description of LovePlay.
 
   s.source_files = 'LovePlay/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LovePlay' => ['LovePlay/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'LovePlay' => ['LovePlay/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'NewsList_Category'
+  s.dependency 'Recommend_Category'
+  s.dependency 'Zone_Category'
 end

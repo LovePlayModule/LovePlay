@@ -1,0 +1,42 @@
+{
+  "name": "RecommendModule",
+  "version": "0.1.1",
+  "summary": "RecommendModule.",
+  "description": "TODO: Add long description of RecommendModule.",
+  "homepage": "https://github.com/LovePlayModule/RecommendModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YunsChou": "2647754496@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LovePlayModule/RecommendModule.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RecommendModule/Classes/**/*",
+  "dependencies": {
+    "Network": [
+
+    ],
+    "Tools": [
+
+    ],
+    "NewsList_Category": [
+
+    ],
+    "NewsDetail_Category": [
+
+    ],
+    "YYKit": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
+}

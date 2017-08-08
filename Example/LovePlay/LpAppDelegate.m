@@ -8,14 +8,16 @@
 
 #import "LpAppDelegate.h"
 #import <Network/HttpRequest.h>
+#import <LovePlay/MainTabBarController.h>
 
 @implementation LpAppDelegate
 
-NSString * const BaseURL = @"http://i.play.163.com";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[HttpRequest sharedInstance] configBaseURL:BaseURL];
+    [[HttpRequest sharedInstance] configBaseURL:@"https://i.play.163.com"];
+    
+    self.window.rootViewController = [[MainTabBarController alloc] init];
     return YES;
 }
 

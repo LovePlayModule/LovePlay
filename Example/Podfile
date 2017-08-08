@@ -6,14 +6,26 @@ target 'LovePlay_Example' do
   pod 'LovePlay', :path => '../'
   
 #  pod 'NewsList_Category', :path => '../../NewsList_Category/'
+#  pod 'Recommend_Category', :path => '../../Recommend_Category/'
+#  pod 'Zone_Category', :path => '../../Zone_Category/'
+#  
 #  pod 'NewsListModule', :path => '../../NewsListModule/'
 #  pod 'NewsDetailModule', :path => '../../NewsDetailModule/'
 #  pod 'NewsCommentModule', :path => '../../NewsCommentModule/'
+#  pod 'RecommendModule', :path => '../../RecommendModule/'
+#  pod 'ZoneModule', :path => '../../ZoneModule/'
 
+  
     pod 'NewsList_Category'
+    pod 'Recommend_Category'
+    pod 'Zone_Category'
+    
     pod 'NewsListModule'
     pod 'NewsDetailModule'
     pod 'NewsCommentModule'
+    pod 'RecommendModule'
+    pod 'ZoneModule'
+    
   target 'LovePlay_Tests' do
     inherit! :search_paths
 

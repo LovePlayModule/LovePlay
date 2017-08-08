@@ -18,5 +18,21 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LovePlay/Classes/**/*"
+  "source_files": "LovePlay/Classes/**/*",
+  "resource_bundles": {
+    "LovePlay": [
+      "LovePlay/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "NewsList_Category": [
+
+    ],
+    "Recommend_Category": [
+
+    ],
+    "Zone_Category": [
+
+    ]
+  }
 }

@@ -80,12 +80,16 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/LovePlay/LovePlay.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/NewsDetailModule/NewsDetailModule.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/NewsListModule/NewsListModule.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/ZoneModule/ZoneModule.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/LovePlay/LovePlay.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/NewsDetailModule/NewsDetailModule.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/NewsListModule/NewsListModule.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/ZoneModule/ZoneModule.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

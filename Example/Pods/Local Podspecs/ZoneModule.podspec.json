@@ -1,0 +1,41 @@
+{
+  "name": "ZoneModule",
+  "version": "0.1.1",
+  "summary": "ZoneModule.",
+  "description": "TODO: Add long description of ZoneModule.",
+  "homepage": "https://github.com/LovePlayModule/ZoneModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YunsChou": "2647754496@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LovePlayModule/ZoneModule.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZoneModule/Classes/**/*",
+  "resource_bundles": {
+    "ZoneModule": [
+      "ZoneModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "Network": [
+
+    ],
+    "Tools": [
+
+    ],
+    "YYKit": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
+}
